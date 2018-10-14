@@ -70,12 +70,33 @@
   }
 }
 
+.ssim-insta {
+  color: #ff0000;
+  font-family: Roboto, sans-serif;
+  font-size: 26px;
+}
+
+.ssim-insta:hover {
+  color: #2d2d2d;
+}
+
+#design-process-ssim {
+  height: 608px!important;
+}
+
+@media (min-width: 768px) {
+  #design-process-ssim {
+    height: 317px!important;
+  }
+}
+
 #research-plan-ash_2 {
-  height: 243px!important;
+  height: 510px!important;
 }
 
 @media (min-width: 768px) {
   #research-plan-ash_2 {
+    height: 246px!important;
   }
 }
 
