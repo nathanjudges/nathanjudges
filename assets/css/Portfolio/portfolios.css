@@ -100,3 +100,13 @@
   }
 }
 
+#design-process-illustrator {
+  height: 222px!important;
+}
+
+@media (min-width: 768px) {
+  #design-process-illustrator {
+    height: 112px!important;
+  }
+}
+
