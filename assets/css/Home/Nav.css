@@ -1,0 +1,34 @@
+#sidebar-wrapper {
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: #2d2d2d!important;
+  font-family: 'Roboto';
+  text-indent: 20px;
+}
+
+.nav-link:hover {
+  color: #ff0000!important;
+}
+
+.fa.fa-times {
+  color: #2d2d2d;
+}
+
+.fa.fa-times:hover {
+  color: #ff0000;
+}
+
+.fa.fa-bars {
+  color: #eeeeee;
+}
+
+.fa.fa-bars:hover {
+  color: #2d2d2d;
+}
+
+#sidebar-nav {
+  padding-top: 50px;
+}
+

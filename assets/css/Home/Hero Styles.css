@@ -1,0 +1,59 @@
+.masthead h1 {
+  font-size: 43px;
+  font-weight: 300!important;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 61px;
+    font-weight: 300!important;
+  }
+}
+
+.btn.btn-primary.btn-xl.js-scroll-trigger {
+  background-color: transparent!important;
+  border-color: transparent!important;
+  padding: 10px 20px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  color: #eeeeee;
+  font-family: 'Josefin Sans';
+  font-weight: 300!important;
+}
+
+@media (min-width: 768px) {
+  .sub-heading {
+    font-size: 28px;
+  }
+}
+
+.menu-toggle.rounded {
+  background-color: transparent!important;
+}
+
+a {
+  color: rgba(29,128,159,0);
+}
+
+.link-more {
+  color: #ffffff;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  padding: 10px;
+}
+
+a:hover {
+  color: #eeeeee;
+  text-decoration: line-through;
+}
+
+a {
+  color: #ffffff;
+}
+
+.link-more.js-scroll-trigger {
+  color: #ffffff!important;
+}
+

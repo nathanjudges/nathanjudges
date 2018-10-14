@@ -1,0 +1,17 @@
+.h2 {
+  font-weight: 700;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  #ethusiastic-title {
+    font-size: 32px!important;
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+}
+
+#ethusiastic-title {
+  font-size: 22px;
+}
+
