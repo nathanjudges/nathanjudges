@@ -1,12 +1,15 @@
 .masthead h1 {
-  font-size: 43px;
+  font-size: 48px;
   font-weight: 300!important;
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 61px;
-    font-weight: 300!important;
+    font-size: 72px;
+    font-weight: 500!important;
+    height: 72px;
+    line-height: 72px;
+    margin-bottom: 12px!important;
   }
 }
 
@@ -17,7 +20,8 @@
 }
 
 .sub-heading {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 24px;
   color: #eeeeee;
   font-family: 'Josefin Sans';
   font-weight: 300!important;
@@ -25,7 +29,7 @@
 
 @media (min-width: 768px) {
   .sub-heading {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
