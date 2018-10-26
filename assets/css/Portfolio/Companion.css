@@ -46,3 +46,19 @@
   }
 }
 
+#comp_4 {
+  width: 250px!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  line-height: 24px;
+  height: 187px!important;
+}
+
+@media (min-width: 768px) {
+  #comp_4 {
+    height: 73px!important;
+    margin-top: 48px!important;
+    width: 590px!important;
+  }
+}
+
