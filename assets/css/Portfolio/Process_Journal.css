@@ -503,3 +503,17 @@
   height: 66px!important;
 }
 
+#img_2 {
+  overflow-x: scroll;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  #img_2 {
+    width: 590px;
+  }
+}
+
