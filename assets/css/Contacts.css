@@ -10,6 +10,12 @@
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  .cv-container {
+    margin-top: 248px;
+  }
+}
+
 #cv {
   color: #000000;
   font-size: 24px;
@@ -23,19 +29,6 @@
 
 #cv:after {
   color: #000;
-}
-
-.row {
-  width: 327px;
-  margin: 48px auto 0;
-}
-
-.col-md-3 {
-  width: 32px;
-  height: 32px;
-  margin: 0 24px;
-  padding: 5px 10px;
-  border: 0.3px solid black;
 }
 
 .fa.fa-twitter {
@@ -68,5 +61,71 @@
 
 .fa.fa-linkedin:hover {
   color: red;
+}
+
+@media (min-width: 768px) {
+  #about-contact-title {
+    position: absolute;
+    top: 13%;
+  }
+}
+
+@media (min-width: 768px) {
+  #social-media {
+    position: absolute;
+    top: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  #lets-talk {
+    position: absolute;
+    top: 11%;
+  }
+}
+
+@media (min-width: 768px) {
+  #contacts {
+    width: 300px;
+    position: absolute;
+    left: 14%;
+    top: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm-icons {
+    margin-top: 200px;
+  }
+}
+
+.container.social-icons {
+  height: 32px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.icons {
+  margin: 0 auto;
+  width: 260px;
+  padding: 0;
+}
+
+.icon-item {
+  display: inline-block;
+  margin: 0 24px;
+}
+
+@media (min-width: 768px) {
+  .container.social-icons {
+    margin-top: 190px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact-sentence {
+    width: 86%;
+    margin: 36px auto;
+  }
 }
 

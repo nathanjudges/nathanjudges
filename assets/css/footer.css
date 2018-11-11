@@ -7,6 +7,14 @@
   padding-top: 24px;
 }
 
+@media (min-width: 768px) {
+  .footer {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+  }
+}
+
 .footer-item {
   display: inline-block;
   margin: 0 15px;
@@ -14,6 +22,13 @@
 
 .footer-list {
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .footer-list {
+    /*margin: 0 auto;*/
+    /*width: 323px;*/
+  }
 }
 
 .sm-link {
