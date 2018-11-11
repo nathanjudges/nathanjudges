@@ -9,9 +9,16 @@
 
 @media (min-width: 768px) {
   .footer {
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*width: 100%;*/
+    position: sticky;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-list {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -22,13 +29,6 @@
 
 .footer-list {
   padding: 0;
-}
-
-@media (min-width: 768px) {
-  .footer-list {
-    /*margin: 0 auto;*/
-    /*width: 323px;*/
-  }
 }
 
 .sm-link {

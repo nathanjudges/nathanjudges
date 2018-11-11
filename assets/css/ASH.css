@@ -4,6 +4,39 @@
   margin: 4px;
 }
 
-#ASH {
+@media (min-width: 768px) {
+  #ASH-Heading {
+    position: absolute;
+    right: 7%;
+    top: 11%;
+  }
+}
+
+@media (min-width: 768px) {
+  #article-1 {
+    margin-top: 120px;
+    min-width: 86%;
+  }
+}
+
+@media (min-width: 768px) {
+  #project-image {
+    margin-right: 0;
+    margin-left: auto;
+    width: 40%;
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  #disapear-project {
+    height: 0;
+    border: none;
+  }
+}
+
+#project-image {
+  height: 0;
+  border: none;
 }
 

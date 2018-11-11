@@ -54,6 +54,7 @@
     margin-left: 7%;
     width: 40%;
     height: inherit;
+    height: 350px;
   }
 }
 
@@ -65,7 +66,8 @@
 
 @media (min-width: 768px) {
   .images {
-    width: 98%;
+    width: 99%;
+    height: 98%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -76,6 +78,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#hero:hover {
+  opacity: 0.5;
 }
 
 .h4, h4 {
@@ -170,6 +176,20 @@
   #article {
     width: 100%;
     margin-left: 0;
+  }
+}
+
+#about-width {
+  height: 0;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #about-width {
+    border: 0.3px solid black;
+    min-width: 86%;
+    height: 400px;
+    margin-top: 48px;
   }
 }
 

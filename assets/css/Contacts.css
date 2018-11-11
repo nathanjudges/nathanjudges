@@ -12,7 +12,9 @@
 
 @media (min-width: 768px) {
   .cv-container {
-    margin-top: 248px;
+    position: absolute;
+    right: 11%;
+    top: 45%;
   }
 }
 
@@ -73,7 +75,7 @@
 @media (min-width: 768px) {
   #social-media {
     position: absolute;
-    top: 60%;
+    top: 55%;
   }
 }
 
@@ -88,8 +90,8 @@
   #contacts {
     width: 300px;
     position: absolute;
-    left: 14%;
-    top: 150px;
+    right: 7%;
+    top: 25%;
   }
 }
 
@@ -103,6 +105,16 @@
   height: 32px;
   width: 100%;
   margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+  .container.social-icons {
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    padding: 0;
+    width: 260px;
+  }
 }
 
 .icons {
@@ -124,8 +136,58 @@
 
 @media (min-width: 768px) {
   #contact-sentence {
-    width: 86%;
-    margin: 36px auto;
+    position: absolute;
+    right: 7%;
+    top: 80%;
+    width: 327px;
+  }
+}
+
+.container.contact-image {
+  height: 0;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .container.contact-image {
+    border: 0.3px solid black;
+    width: 30px;
+    margin-left: 7%;
+    width: 40%;
+    height: inherit;
+    padding: 0;
+    height: 325px;
+    margin-top: 12px;
+  }
+}
+
+.contact-hero {
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  .contact-hero {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98%;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  #about-sentence {
+    width: 327px;
+    position: absolute;
+    right: 7%;
+  }
+}
+
+@media (min-width: 768px) {
+  #about-sentence {
+    position: absolute;
+    right: 7%;
+    top: 30%;
   }
 }
 
