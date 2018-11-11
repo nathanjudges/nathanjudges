@@ -1,0 +1,72 @@
+.cv-container {
+  width: 150px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 59px;
+  background-image: url("../../assets/img/Highlighter.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#cv {
+  color: #000000;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+#cv:hover {
+  color: red;
+  text-decoration: none;
+}
+
+#cv:after {
+  color: #000;
+}
+
+.row {
+  width: 327px;
+  margin: 48px auto 0;
+}
+
+.col-md-3 {
+  width: 32px;
+  height: 32px;
+  margin: 0 24px;
+  padding: 5px 10px;
+  border: 0.3px solid black;
+}
+
+.fa.fa-twitter {
+  color: #000000;
+}
+
+.icon.ion-social-dribbble {
+  color: #000;
+}
+
+.icon.ion-social-instagram {
+  color: #000000;
+}
+
+.fa.fa-linkedin {
+  color: #000000;
+}
+
+.fa.fa-twitter:hover {
+  color: red;
+}
+
+.icon.ion-social-dribbble:hover {
+  color: red;
+}
+
+.icon.ion-social-instagram:hover {
+  color: red;
+}
+
+.fa.fa-linkedin:hover {
+  color: red;
+}
+
