@@ -90,3 +90,7 @@
   margin-top: 24px;
 }
 
+.image-border {
+  overflow-x: hidden;
+}
+
