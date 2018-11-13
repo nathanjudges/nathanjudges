@@ -5,6 +5,13 @@
 }
 
 @media (min-width: 768px) {
+  .videos {
+    height: 0;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
   #ASH-Heading {
     position: absolute;
     right: 7%;
@@ -12,10 +19,19 @@
   }
 }
 
+#project-article {
+  height: 0;
+  border: none;
+}
+
 @media (min-width: 768px) {
-  #article-1 {
-    margin-top: 120px;
+  #project-article {
+    margin-top: 11%;
     min-width: 86%;
+    height: 100%;
+    max-width: 86%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -32,11 +48,54 @@
   #disapear-project {
     height: 0;
     border: none;
+    margin: 0;
   }
 }
 
 #project-image {
   height: 0;
   border: none;
+}
+
+#project-sentence {
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  #project-sentence {
+    width: 40%;
+    display: inline-block;
+    margin-left: 0;
+    height: 150px;
+    margin-left: 60%;
+  }
+}
+
+#project-hero {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #project-hero {
+    border: 0.3px solid black;
+    padding: 4px;
+    width: 40%;
+    margin-left: 0;
+    display: inline-block;
+  }
+}
+
+#ash-image {
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  #ash-image {
+    width: 100%;
+    height: 150px;
+    background-image: url("../../assets/img/ASH-Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
