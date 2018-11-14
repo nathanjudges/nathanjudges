@@ -93,9 +93,7 @@
     padding: 4px;
     width: 40%;
     margin-left: 0;
-    display: inline-block;
-    height: 250px;
-    display: inline-block;
+    height: 325px!important;
   }
 }
 
