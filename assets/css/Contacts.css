@@ -37,16 +37,40 @@
   color: #000000;
 }
 
+@media (min-width: 768px) {
+  .fa.fa-twitter {
+    font-size: 24px;
+  }
+}
+
 .icon.ion-social-dribbble {
   color: #000;
+}
+
+@media (min-width: 768px) {
+  .icon.ion-social-dribbble {
+    font-size: 24px;
+  }
 }
 
 .icon.ion-social-instagram {
   color: #000000;
 }
 
+@media (min-width: 768px) {
+  .icon.ion-social-instagram {
+    font-size: 24px;
+  }
+}
+
 .fa.fa-linkedin {
   color: #000000;
+}
+
+@media (min-width: 768px) {
+  .fa.fa-linkedin {
+    font-size: 24px;
+  }
 }
 
 .fa.fa-twitter:hover {
@@ -121,6 +145,12 @@
   margin: 0 auto;
   width: 260px;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .icons {
+    width: 290px;
+  }
 }
 
 .icon-item {
