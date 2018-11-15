@@ -52,3 +52,9 @@
   line-height: 48px;
 }
 
+@media (min-width: 768px) {
+  #about-footer-large {
+    margin-top: 15%;
+  }
+}
+
