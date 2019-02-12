@@ -8,7 +8,7 @@ float blue = random(50, 100);
 
 void setup() 
 {
-  fullScreen(P3D);
+  size(1400, 900, P3D);
   frameRate(30);
   strokeWeight(2);
   lights();
