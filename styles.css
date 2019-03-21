@@ -112,14 +112,6 @@ ul {
   margin-bottom: 100px;
 }
 
-.navUnderline:hover {
-    border-bottom: solid 4px #2d2d2d;
-    padding-bottom: 8px;
-    display: inline-block;
-    font-weight: 500;
-    color: #2d2d2d;
-}
-
 .navUnderline {
     padding-bottom: 12px;
 }
@@ -140,6 +132,10 @@ ul {
     width: 140px;
     margin: auto;
   }
+
+  .nav>li>a:hover {
+    background-color: #f9f9f9;
+}
 
 #active {
     color: #bbbbbb;
@@ -191,6 +187,14 @@ small {
     font-weight: 400;
     color: #bbbbbb;
     background-color: #fff;
+}
+
+.navUnderline:hover {
+  border-bottom: solid 4px #2d2d2d;
+  padding-bottom: 8px;
+  display: inline-block;
+  font-weight: 500;
+  color: #2d2d2d;
 }
 
 .nav>li>a:hover {
