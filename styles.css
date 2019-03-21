@@ -103,13 +103,13 @@ ul {
 
 .nav.navbar-nav {
     margin: 0;
-    margin-top: 100px;
+    margin-top: 120px;
     text-align: center;
 }
 
 .nav.navbar-nav.navbar-right {
   margin-top: 0px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .navUnderline {
