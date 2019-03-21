@@ -141,24 +141,35 @@ ul {
     color: #bbbbbb;
 }
 
+/*NavLogo*/
+.nav-logo {
+  position: absolute;
+}
+
+img {
+  height: 0px;
+  width: 00px;
+}
+
 /*Heading*/
 h1 {
     font-family: 'Roboto Mono', monospace;
 }
 
 #pageTitle {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h1.display-2 {
-    line-height: 2em;
-    font-size: 3em;
+    line-height: 1.5em;
     font-weight: 400;
 }
 
-small {
-    color: #bbbbbb!important;
+h1 small {
+    color: #bbbbbb;
+    font-weight: 400;
+    font-size: 55%;
 }
 
 /*Landing Page Contents*/
@@ -181,6 +192,11 @@ small {
 
 /*Media Query - Desktop*/
 @media only screen and (min-width: 768px) {
+  .row {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
 .nav>li>a {
     padding: 15px;
     font-size: 1em;
@@ -227,6 +243,28 @@ small {
 .strikeout::after {
     display: none;
   }
+
+/*NavLogo*/
+.nav-logo {
+  position: absolute;
+  margin-left: 43%;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+/*PageTitle*/
+h1.display-2 {
+  line-height: 2em;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h1 small {
+  font-size: 65%;
+}
 
 
 
