@@ -184,16 +184,16 @@ small {
 .nav>li>a {
     padding: 15px;
     font-size: 1em;
-    font-weight: 400;
     color: #bbbbbb;
     background-color: #fff;
+    font-weight: lighter;
 }
 
 .navUnderline:hover {
   border-bottom: solid 4px #2d2d2d;
   padding-bottom: 8px;
   display: inline-block;
-  font-weight: 500;
+  font-weight: bold;
   color: #2d2d2d;
 }
 
@@ -202,7 +202,7 @@ small {
 }
 
 #active {
-    font-weight: 500;
+    font-weight: bold;
     color: #2d2d2d;
     padding-bottom: 6px;
     display: inline-block;
