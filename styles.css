@@ -122,6 +122,10 @@ ul {
     background-color: #f9f9f9;
 }
 
+ul.nav.nav-navbar {
+  margin-top: 40px;
+}
+
 /*strike out*/
 .strikeout::after {
     border-bottom: 0.15em solid #bbbbbb;
