@@ -103,7 +103,13 @@ ul {
 
 .nav.navbar-nav {
     margin: 0;
+    margin-top: 100px;
     text-align: center;
+}
+
+.nav.navbar-nav.navbar-right {
+  margin-top: 0px;
+  margin-bottom: 100px;
 }
 
 .navUnderline:hover {
@@ -122,10 +128,6 @@ ul {
     background-color: #f9f9f9;
 }
 
-ul.nav.nav-navbar {
-  margin-top: 40px;
-}
-
 /*strike out*/
 .strikeout::after {
     border-bottom: 0.15em solid #bbbbbb;
@@ -135,7 +137,7 @@ ul.nav.nav-navbar {
     position: absolute;
     right: 0;
     top: 35%;
-    width: 50%;
+    width: 140px;
     margin: auto;
   }
 
@@ -207,6 +209,15 @@ small {
     padding: 0;
     background: #fff;
 }
+
+.nav.navbar-nav {
+  margin: 0;
+}
+
+.nav.navbar-nav.navbar-right {
+  margin: 0;
+}
+
 
 /*strike out*/
 .strikeout::after {
