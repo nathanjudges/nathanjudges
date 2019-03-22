@@ -172,21 +172,33 @@ h1 small {
     font-size: 55%;
 }
 
-/*Landing Page Contents*/
-.col-sm-6 {
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: aqua;
+h3 small {
+  color: #bbbbbb;
+  font-weight: 400;
 }
 
-.col-sm-6.glitch {
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: aqua;
+h3 {
+  padding-left: 10px;
+  margin-top: 24px;
+  margin-bottom: 6px;
 }
 
+#minorHeading {
+  margin-top: 0;
+}
 
+/*Page Contents*/
+#contentWrapper {
+  margin-top: 48px;
+}
 
+#contentWrapper:hover {
+  opacity: 0.5;
+}
+
+img.portfolioContent{
+  border-radius: 10px;
+}
 
 
 
@@ -280,7 +292,7 @@ h1 small {
 
 
 .pre-glitch {
-  color: #2d2d2d);
+  color: #2d2d2d;
   font-size: 1.125em;
   position: relative;
   margin-right: 2.25em;
