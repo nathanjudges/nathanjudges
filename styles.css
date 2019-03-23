@@ -17,6 +17,21 @@ a {
     font-family: 'Roboto Mono', monospace;
   }
 
+a:hover {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+a:active {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
 /*Lists*/
 ul {
     list-style: none;
@@ -293,6 +308,12 @@ textarea {
 #emailForm {
   margin-top: 48px;
 }
+
+form {
+  margin: auto;
+  width: 270px;
+}
+
 
 
 
