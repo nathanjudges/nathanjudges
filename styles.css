@@ -17,17 +17,17 @@ a {
     font-family: 'Roboto Mono', monospace;
   }
 
-a:visited {
+a.display-2:visited {
   text-decoration: none;
   color: #eaeaea;
 }
 
-a:active {
+a.display-2:active {
   text-decoration: none;
   color: #eaeaea;
 }
 
-a:focus, a:hover {
+a.display-2:focus, a:hover {
   text-decoration: none;
   color: #bbbbbb;
 }
