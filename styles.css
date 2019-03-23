@@ -17,11 +17,6 @@ a {
     font-family: 'Roboto Mono', monospace;
   }
 
-
-img {
-  border-radius: 10px;
-}
-
 /*Lists*/
 ul {
     list-style: none;
@@ -266,8 +261,10 @@ a.right.carousel-control {
 
 
 .carousel-inner {
+  border-radius: 10px;
   background-color: #fff;
 }
+
 
 
 /*Media Query - Desktop*/
