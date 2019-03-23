@@ -17,11 +17,6 @@ a {
     font-family: 'Roboto Mono', monospace;
   }
 
-a:hover {
-  text-decoration: none;
-  color: #bbbbbb;
-}
-
 a:visited {
   text-decoration: none;
   color: #eaeaea;
@@ -30,6 +25,11 @@ a:visited {
 a:active {
   text-decoration: none;
   color: #eaeaea;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #bbbbbb;
 }
 
 /*Lists*/
