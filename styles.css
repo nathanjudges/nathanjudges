@@ -8,6 +8,8 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 2em;
+  text-align: justify;
+  padding: 0 24px;
 }
 
 /*Links*/
