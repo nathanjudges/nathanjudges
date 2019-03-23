@@ -11,6 +11,11 @@ p {
   text-align: justify;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 /*Links*/
 a {
     text-decoration: none;
@@ -217,9 +222,6 @@ h3 {
 
 img.portfolioContent{
   border-radius: 10px;
-  -webkit-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
-  -moz-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
-  box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
 }
 
 
@@ -282,9 +284,6 @@ a.right.carousel-control {
 .carousel-inner {
   border-radius: 10px;
   background-color: #fff;
-  -webkit-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
-  -moz-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
-  box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
 }
 
 /*Email Form*/
@@ -321,13 +320,7 @@ form {
   width: 270px;
 }
 
-/*Project Tiles*/
-#majorProject:hover {
-  -webkit-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
-  -moz-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
-  box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
-  transform: scale(1.03, 1.03);
-}
+
 
 
 
@@ -406,6 +399,29 @@ h1.display-2 {
 
 h1 small {
   font-size: 65%;
+}
+
+/*Project Tiles*/
+#majorProject:hover {
+  -webkit-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
+  box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
+  transform: scale(1.03, 1.03);
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
+  box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
+}
+
+img.portfolioContent{
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
+  box-shadow: 3px 6px 20px -8px rgba(0,0,0,0.5);
 }
 
 
@@ -602,23 +618,4 @@ h1 small {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
-}
-
-/*Pixie*/
-.onecolumn {
-  overflow: hidden;
-}
-
-#container {
-  overflow:hidden;
-  position:relative;
-}
-
-#pixie {
-  overflow: hidden;
-  z-index:-1;
-  position: absolute;
-  top: 0;
-  left: 0;
-margin-left: -50px;
 }
