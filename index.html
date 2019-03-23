@@ -15,9 +15,7 @@
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
 
     <!--Mobile Specific-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,9 +26,6 @@
 
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="styles.css">
-
-    <!--JavaScript-->
-    <script src="script.js"></script>
 
     <!--Animate-->
     <link rel="stylesheet" href="animate.css/animate.min.css">
@@ -80,56 +75,38 @@
     </div>
   </div>
 
+  <div class="onecolumn" id="container">
+
   <div class="row animated fadeInUp slow delay-1s">
+          
+      <canvas id="pixie"></canvas>
+      
       <div class="col-sm-6 col-md-4" id="contentWrapper">
-        <img class="portfolioContent" src="assets/POPPY.png" alt="POPPY" style="width:100%;height:100%;"></img>
+        <img class="portfolioContent" id="majorProject" src="assets/POPPY.png" alt="POPPY" style="width:100%;height:100%;"></img>
         <h3>Poly Poppy</h3>
         <h3 id="minorHeading"><small>Illustrator</small></h3>
       </div>
 
-      <div class="col-sm-6 col-md-4" id="contentWrapper">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img class="portfolioContent" src="assets/ISO_BLUE_1.png" alt="BLUE" style="width:100%;">
-                </div>
-
-                <div class="item">
-                  <img class="portfolioContent" src="assets/ISO_PURPLE_1.png" alt="PURPLE" style="width:100%;">
-                </div>
-          
-                <div class="item">
-                  <img class="portfolioContent" src="assets/ISO_PINK_1.png" alt="PINK" style="width:100%;">
-                </div>
-              
-                <div class="item">
-                  <img class="portfolioContent" src="assets/ISO_ORANGE_1.png" alt="ORANGE" style="width:100%;">
-                </div>
-              </div>
-          
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
-        <h3>Iso House</h3>
-        <h3 id="minorHeading"><small>Illustrator</small></h3>
-      </div>
 
       <div class="col-sm-6 col-md-4" id="contentWrapper">
-        <img class="portfolioContent" src="assets/Fish.png" alt="FISH" style="width:100%;height:100%;"></img>
+        <img class="portfolioContent" id="majorProject" src="assets/Fish.png" alt="FISH" style="width:100%;height:100%;"></img>
         <h3>Ocean Cut-Out</h3>
         <h3 id="minorHeading"><small>Illustrator</small></h3>
       </div>
 
-    </div>
+  
+
+  </div>
+  </div>
     
 
+
+<!--JavaScript-->
+<script src="script.js"></script>
+<script src="particle-style.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
 </body>
