@@ -322,7 +322,69 @@ form {
 
 
 
+/*Footer*/
+.container-fluid.footer {
+  margin-top: 100px;
+  margin-bottom: 32px;
+  text-align: center;
+}
 
+.footerIcons {
+  display: inline-block;
+  margin: 18px;
+  font-size: 1.5em;
+}
+
+.fa-dribbble {
+  color: #ea4c89;
+  padding: 12px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+.fa-instagram {
+  color: #fb6049;
+  padding: 12px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+  padding: 12px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+.fa-dribbble:hover {
+  color: #fff;
+  background-color: #ea4c89;
+  transition-timing-function: ease-out;
+
+  /* A litttttle slower on the way in */
+  transition: 0.25s;
+}
+
+.fa-instagram:hover {
+  color: #fff;
+  background-color: #fb6049;
+  transition-timing-function: ease-out;
+
+  /* A litttttle slower on the way in */
+  transition: 0.25s;
+}
+
+.fa-linkedin:hover {
+  color: #fff;
+  background-color: #007bb5;
+  transition-timing-function: ease-out;
+
+  /* A litttttle slower on the way in */
+  transition: 0.25s;
+}
 
 
 /*Media Query - Desktop*/
@@ -401,12 +463,26 @@ h1 small {
   font-size: 65%;
 }
 
+
+
+
+
+}
+
+
+/*Media Query - Tablet*/
+@media only screen and (min-width: 992px) {
 /*Project Tiles*/
 #majorProject:hover {
   -webkit-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
   -moz-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
   box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
   transform: scale(1.03, 1.03);
+  /* This timing applies on the way IN */
+  transition-timing-function: ease-out;
+
+  /* A litttttle slower on the way in */
+  transition: 0.25s;
 }
 
 .carousel-inner {
@@ -427,7 +503,6 @@ img.portfolioContent{
 
 
 }
-
 
 
 
