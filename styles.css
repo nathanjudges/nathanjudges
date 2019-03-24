@@ -38,6 +38,10 @@ a.display-2:focus, a:hover {
   color: #bbbbbb;
 }
 
+a.h3.small:hover {
+  color: #eaeaea;
+}
+
 /*Lists*/
 ul {
     list-style: none;
