@@ -38,10 +38,6 @@ a.display-2:focus, a:hover {
   color: #bbbbbb;
 }
 
-a.h3.small:hover {
-  color: #eaeaea;
-}
-
 /*Lists*/
 ul {
     list-style: none;
@@ -208,6 +204,10 @@ h3 small {
   color: #bbbbbb;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+}
+
+a h3 small:hover {
+  color: #eaeaea;
 }
 
 h3 {
