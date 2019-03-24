@@ -41,6 +41,7 @@ a.display-2:focus, a:hover {
 /*Lists*/
 ul {
     list-style: none;
+    padding-inline-start: 0;
 }
 
 /*Navbar Icon*/
@@ -325,7 +326,7 @@ form {
 /*Footer*/
 .container-fluid.footer {
   margin-top: 100px;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
