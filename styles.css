@@ -206,10 +206,6 @@ h3 small {
   font-family: 'Roboto', sans-serif;
 }
 
-a h3 small:hover {
-  color: #eaeaea;
-}
-
 h3 {
   padding-left: 10px;
   margin-top: 24px;
