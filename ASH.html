@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!--Mobile Specific-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,6 +30,7 @@
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!--JavaScript-->
     <script src="script.js"></script>
@@ -131,11 +132,26 @@
         <h3><small>This project was created at the University of Sydney's Interaction Design Studio where it was awarded:</small></h3>
         <h3>Best Research Design</h3>
       </div>
-  
     </div>
+
+<!-- Expandible Div -->
+<div class="row">
+  <div class="col-sm-12" id="contentWrapper">
+    <button class="collapsible large">Design Process</button>
+    <div class="col-xs-12 content" id="fullPageDiv">
+    <p class="creativeCollapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- End Expandable -->
     <div class="row" style="margin-top:48px;">
 
-      <div class="col-md-5" id="pageContent">
+      <div class="col-md-5 pageText" id="pageContent">
         <h2><small>Solution</small></h2>
         <p>After focusing on how autonomy could best help those most affected by DV we came up with a concept that combined a mobile app with an in-car interface that would provide the user with the skills and resources they needed to gain access to help and most importantly protect them and their anonymity.</p>
       </div>
@@ -149,21 +165,21 @@
     </div>
     <div class="row" style="margin-top:48px;">
 
-      <div class="col-md-6" id="pageContent" style="text-align:center;">
-        <img src="assets/ASH_MOBILE.png" alt="ASH_MOBILE" style="width:40%;height:40%;"></img>
-      </div>
-
-      <div class="col-md-6" id="pageContent">
+      <div class="col-md-6 pageText" id="pageContent">
         <h2><small>Core Components</small></h2>
         <p>The final concept for the Autonomous Secure Housing (ASH) system is a mobile app that allows users to order an autonomous bus to a set location at anytime, removing them from a dangerous situation at home.</p>
         <br></br>
         <p>The in-car component of the project was focused on making the user feel as comfortable as possible in this new environment. We achieved this by providing constant feedback about where the bus was in relation to geography and it's immedeate surroundings.</p>
       </div>
 
+      <div class="col-md-6" id="pageContent" style="text-align:center;">
+        <img src="assets/ASH_MOBILE.png" alt="ASH_MOBILE" style="width:40%;height:40%;"></img>
+      </div>
+
     </div>
     <div class="row" style="margin-top:48px;">
 
-      <div class="col-md-6" id="pageContent">
+      <div class="col-md-6 pageText" id="pageContent">
         <p>The final concept for the Autonomous Secure Housing (ASH) system is a mobile app that allows users to order an autonomous bus to a set location at anytime, removing them from a dangerous situation at home.</p>
         <br></br>
         <p>The in-car component of the project was focused on making the user feel as comfortable as possible in this new environment. We achieved this by providing constant feedback about where the bus was in relation to geography and it's immedeate surroundings.</p>
@@ -177,23 +193,43 @@
       <div class="col-md-6" id="pageContent" style="text-align:center;">
         <img src="assets/TCTACTOE.gif" alt="TICTACTOE" style="width:40%;height:40%;"></img>
       </div>
-      <div class="col-md-6" id="pageContent" style="text-align:center;">
-        <img src="assets/LOCK.gif" alt="LOCK" style="width:40%;height:40%;"></img>
-      </div>
-    </div>
-    <div class="row" style="margin-top:48px;">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
+
+      <div class="col-sm-6 pageText" id="pageContent">
         <p>Our research revealed to us that women do not leave dangerous situations because of fear of repercussions, fear of the unknown or the safety of their children. Victims also rarely want to leave a situation - they just hope the violence will stop. It takes on average eight attempts to leave a violent relationship.</p>
-        <br></br>
-        <p>The app acts as the key to unlock the Austonomous Secure Housing when it arrives which provides a safe space for women unobstructed by police. As we found women would be more likely to seek help if this response was more subtle and aimed more toward teaching rather than persecution.</p>
         <br></br>
         <p>The app contains a "HIDDEN MODE" that instantly changes the screen to a simple game until a code is entered to protect their privacy.
           This function is available from all screens within the app and was included to to help build trust with users as they needed a way to quickly and effectively
           disguise their activity within the app.
         </p>
       </div>
+    </div>
+    <div class="row" style="margin-top:48px;">
+
+      <div class="col-md-6" id="pageContent" style="text-align:center;">
+        <img src="assets/LOCK.gif" alt="LOCK" style="width:40%;height:40%;"></img>
+      </div>
+
+      <div class="col-sm-6 pageText" id="pageContent">
+        <p>Our research revealed to us that women do not leave dangerous situations because of fear of repercussions, fear of the unknown or the safety of their children. Victims also rarely want to leave a situation - they just hope the violence will stop. It takes on average eight attempts to leave a violent relationship.</p>
+        <br></br>
+        <p>The app acts as the key to unlock the Austonomous Secure Housing when it arrives which provides a safe space for women unobstructed by police. As we found women would be more likely to seek help if this response was more subtle and aimed more toward teaching rather than persecution.</p>
+        <br></br>
+      </div>
+      
+    </div>
+    <div class="row" style="margin-top:48px;">
+      <div class="col-md-6" id="pageContent" style="padding-top:32px;">
+        <img src="assets/IPAD.gif" alt="ASH_TABLET" style="width:100%;height:100%;"></img>
+      </div>
+
       <div class="col-sm-1"></div>
+
+      <div class="col-md-5 pageText" id="pageContent">
+        <p>The in-car component of the project was focused on providing constant feedback to the user about where the bus was geographically and in relation to it's immedeate surroundings.<br></br></p>
+        <p>Tinterface utilises window pop-ups that lay over the main screen to provide controls.</p>
+        <br></br>
+        <p>The interface also contains information on processes that can be used to protect the user in future scenarios and also contact details of services they can contact to ask for more help.</p>
+      </div>
     </div>
     
 
@@ -216,10 +252,22 @@
     </div>
   </div>
 
-  
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
     
-
-
-
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("activated");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
 </body>
+
 </html>

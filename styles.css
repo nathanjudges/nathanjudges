@@ -2,6 +2,7 @@
 body {
   font-family: 'Roboto Mono', monospace;
     color: #2d2d2d;
+    max-width: 1440px;
 }
 
 p {
@@ -235,7 +236,7 @@ img.portfolioContent{
   background-color: #f9f9f9;
   cursor: pointer;
   padding: 12px;
-  width: 20%;
+  width: 30%;
   border: none;
   text-align: center;
   outline: none;
@@ -243,6 +244,12 @@ img.portfolioContent{
   float: right;
   margin-right: 10px;
   margin-top: -60px;
+}
+
+/*collapse for full page*/
+.collapsible.large {
+  margin-top: 24px;
+  float: left;  
 }
 
 /* Add a background color to the button if it is clicked on */
@@ -266,6 +273,10 @@ img.portfolioContent{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+#fullPageDiv {
+  padding-top: 32px;
 }
 
 .creativeCollapse {
@@ -493,6 +504,10 @@ h1.display-2 {
 
 h1 small {
   font-size: 65%;
+}
+
+.pageText {
+  padding-top: 32px;
 }
 
 
