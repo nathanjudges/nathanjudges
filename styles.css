@@ -275,6 +275,20 @@ img.portfolioContent{
   transition: max-height 0.2s ease-out;
 }
 
+.swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+.swatchesList {
+  display: inline-block;
+  margin-right: 12px;
+}
+
 #fullPageDiv {
   padding-top: 32px;
 }
