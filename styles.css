@@ -183,6 +183,11 @@ img {
   width: 00px;
 }
 
+.fullImage {
+  width: 100%;
+  height: 100%;
+}
+
 /*Heading*/
 h1 {
   font-family: 'Roboto Mono', monospace;
@@ -570,9 +575,9 @@ h1 small {
 
 /*Project Tiles*/
 #majorProject:hover {
-  -webkit-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
-  -moz-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
-  box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.4);
+  box-shadow: 3px 6px 13px -4px rgba(0,0,0,0.4);
   transform: scale(1.03, 1.03);
   /* This timing applies on the way IN */
   transition-timing-function: ease-out;
