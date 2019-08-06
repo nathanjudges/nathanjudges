@@ -13986,3 +13986,12 @@ article table {
   opacity: 0; }
 
 /*# sourceMappingURL=theme.css.map */
+
+
+/* iFrame Gender Parity */
+iframe {
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+}

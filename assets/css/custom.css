@@ -6,3 +6,8 @@
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+
+.projectpreview {
+    width: 100%;
+    height: 100vh;
+}
